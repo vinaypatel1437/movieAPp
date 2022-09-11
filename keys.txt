@@ -1,0 +1,10 @@
+https://image.tmdb.org/t/p/original/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg
+https://api.themoviedb.org/3/movie/popular?api_key=5540e483a20e0b20354dabc2d66a31c9&language=en-US&page=1
+
+
+
+Left :- 
+1. Not included Local Storage
+2. Not included searching functionality
+3. Not included login and signup
+4. Not included session storage (connected to point 3)
