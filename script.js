@@ -1,5 +1,6 @@
 var cart = localStorage.getItem('cart');
-cart = JSON.parse(cart);
+if(cart) cart = JSON.parse(cart);
+else cart = []
 var data = [];
 var page = 1;
 var main = document.querySelector('main');
