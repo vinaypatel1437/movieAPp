@@ -6,6 +6,39 @@ html,body{
     height: 100%;
     width: 100%;
 }
+.search {
+    display: flex;
+    align-items: center;
+}
+.singleMovie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.singleMovie h1,h3{
+    width: 95%;
+    margin-left: 10px;
+}
+.singleMovie img {
+    margin-top: 10px;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+}
+.input-search {
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+    cursor: text;
+    font-size: larger;
+}
+.search-button {
+    height: 40px;
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 body{
     display: grid;
     grid-template-rows: 10% auto 10%;
@@ -13,6 +46,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    background-color: aqua;
 }
 .icon{
     font-size: xxx-large;
@@ -58,6 +92,10 @@ main .movie h2 {
     height: 25px;
     width: 50px;
     margin-right: 5px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
 .oneItemInCart{
     display: flex;
@@ -100,4 +138,11 @@ main .movie h2 {
     font-size: x-large;
     align-items: center;
     justify-content: center;
+}
+.cart-buttons button {
+    height: 20px;
+    width: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
 }
