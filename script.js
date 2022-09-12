@@ -179,13 +179,13 @@ async function page_changing(e) {
     let removeSome = document.getElementById(page);
     removeSome.classList.remove('active')
     if (id == "desc") {
-        if (page < 1) {
+        if (page < 2) {
             page = 1;
         } else {
             page = page - 1;
         }
     } else if (id == "inc") {
-        if (page > 7) {
+        if (page > 6) {
             page = 7;
         } else {
             page = page + 1;
